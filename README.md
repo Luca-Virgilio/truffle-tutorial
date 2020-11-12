@@ -25,8 +25,8 @@ If you want exit the shell, insert
 .exit
 ```
 
-##Run with Ganache GUI
-Before deploy your smart contracts, you run the Ganache application. Then set the truffle-config.js file with the correct networks informations. Now you can use Truffle to deploy your smart contract into the correct network, with the command
+## Run with Ganache GUI
+Before deploying your smart contracts, you should run the Ganache application. Then you set the truffle-config.js file with the correct networks informations. Now you can use Truffle to deploy your smart contract into the correct network, with the command
 ```
 truffle migrate --compile-all --reset --network ganache
 ```
