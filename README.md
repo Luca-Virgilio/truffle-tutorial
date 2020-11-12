@@ -1,4 +1,4 @@
-# truffle-tutorial
+# Truffle-tutorial
 ## Install
 First of all, you should install Truffle, with
 ```
@@ -24,3 +24,13 @@ If you want exit the shell, insert
 ```
 .exit
 ```
+
+##Run with Ganache GUI
+Before deploy your smart contracts, you run the Ganache application. Then set the truffle-config.js file with the correct networks informations. Now you can use Truffle to deploy your smart contract into the correct network, with the command
+```
+truffle migrate --compile-all --reset --network ganache
+```
+Now you can creare a shell linked with the blockchain created by Ganache, using
+```
+truffle console --network ganache
+``` 
